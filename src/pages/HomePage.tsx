@@ -1,3 +1,9 @@
+import { HomeLayout } from "../layouts/HomeLayout";
+
 export const HomePage = () => {
-  return <div>this is home page</div>;
+  return (
+    <HomeLayout>
+      <h1>Body content</h1>
+    </HomeLayout>
+  );
 };
